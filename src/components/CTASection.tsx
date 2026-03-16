@@ -1,4 +1,4 @@
-const WHATSAPP_URL = "https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%20need%20house%20shifting%20service.%20Please%20share%20details.";
+const WHATSAPP_URL = "https://wa.me/918129326323?text=Hello%2C%20I%20need%20house%20shifting%20service.%20Please%20share%20details.";
 
 const CTASection = () => (
   <section className="py-20 px-6">
@@ -8,7 +8,7 @@ const CTASection = () => (
           Ready to start moving?
         </h2>
         <p className="text-primary-foreground/80 text-lg md:text-xl mb-10 max-w-2xl mx-auto">
-          Join 5,000+ happy families who moved safely with SafeShift. Get your quote in 5 minutes.
+          Join 5,000+ happy families who moved safely with MoveBuddy. Get your quote in 5 minutes.
         </p>
         <a
           href={WHATSAPP_URL}

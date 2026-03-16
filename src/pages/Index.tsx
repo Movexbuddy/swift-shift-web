@@ -9,6 +9,7 @@ import GallerySection from "@/components/GallerySection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
+import FloatingCall from "@/components/FloatingCall";
 
 const Index = () => {
   useScrollAnimation();
@@ -25,6 +26,7 @@ const Index = () => {
       <CTASection />
       <Footer />
       <FloatingWhatsApp />
+      <FloatingCall />
     </div>
   );
 };

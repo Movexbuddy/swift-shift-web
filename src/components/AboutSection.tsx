@@ -15,7 +15,7 @@ const AboutSection = () => (
             Relocation experts you can <span className="text-primary">trust</span>
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8 fade-up" data-delay="100">
-            With over a decade of experience, SafeShift has helped thousands of families and businesses relocate safely. Our trained professionals use industry-grade materials and proven techniques to ensure every item — from fragile glassware to heavy furniture — reaches its destination in perfect condition.
+            With over a decade of experience, MoveBuddy has helped thousands of families and businesses relocate safely. Our trained professionals use industry-grade materials and proven techniques to ensure every item — from fragile glassware to heavy furniture — reaches its destination in perfect condition.
           </p>
           <div className="grid gap-6 fade-up" data-delay="200">
             {highlights.map((h) => (

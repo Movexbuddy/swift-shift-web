@@ -1,12 +1,12 @@
 import heroBg from "@/assets/hero-bg.jpg";
 
-const WHATSAPP_URL = "https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%20need%20house%20shifting%20service.%20Please%20share%20details.";
+const WHATSAPP_URL = "https://wa.me/918129326323?text=Hello%2C%20I%20need%20house%20shifting%20service.%20Please%20share%20details.";
 
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center pt-20 overflow-hidden">
     <div className="absolute inset-0 z-0">
       <img src={heroBg} alt="Professional house shifting service" className="w-full h-full object-cover opacity-20" loading="eager" />
-      <div className="absolute inset-0 bg-gradient-to-b from-background via-background/60 to-background" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background via-background/30 to-background" />
     </div>
 
     <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">

@@ -1,4 +1,4 @@
-const WHATSAPP_URL = "https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%20need%20house%20shifting%20service.%20Please%20share%20details.";
+const WHATSAPP_URL = "https://wa.me/918129326323?text=Hello%2C%20I%20need%20house%20shifting%20service.%20Please%20share%20details.";
 
 const FloatingWhatsApp = () => (
   <a

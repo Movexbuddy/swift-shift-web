@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-const WHATSAPP_URL = "https://wa.me/91XXXXXXXXXX?text=Hello%2C%20I%20need%20house%20shifting%20service.%20Please%20share%20details.";
+const WHATSAPP_URL = "https://wa.me/918129326323?text=Hello%2C%20I%20need%20house%20shifting%20service.%20Please%20share%20details.";
 
 const navLinks = [
   { href: "#services", label: "Services" },
@@ -16,7 +16,9 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full z-40 glass-nav border-b border-border">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <a href="#" className="text-2xl font-bold tracking-tight text-primary">SafeShift</a>
+        <a href="#" className="flex items-center">
+          <img src="/movebuddy.webp" alt="MoveBuddy Logo" className="h-10 w-auto" />
+        </a>
 
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((l) => (
