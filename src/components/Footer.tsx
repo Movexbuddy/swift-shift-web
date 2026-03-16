@@ -21,7 +21,7 @@ const Footer = () => (
       <div>
         <h5 className="text-primary-foreground font-bold mb-6">Service Areas</h5>
         <ul className="space-y-3 text-sm text-muted-foreground">
-          {["Kochi", "Kalamassery", "Kaloor", "Kadavantra"].map((a) => (
+          {["Kochi", "Kalamassery", "Kaloor", "Kadavanthra"].map((a) => (
             <li key={a} className="flex items-center gap-2"><MapPin className="w-3 h-3" />{a}</li>
           ))}
         </ul>

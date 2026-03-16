@@ -32,10 +32,10 @@ const AboutSection = () => (
           </div>
         </div>
         <div className="relative zoom-in">
-          <div className="bg-primary/5 rounded-3xl p-8 md:p-12">
-            <div className="grid grid-cols-2 gap-6 text-center">
+          <div className="bg-primary/5 rounded-3xl p-5 sm:p-8 md:p-12">
+            <div className="grid grid-cols-2 gap-3 sm:gap-6 text-center">
               {[
-                ["5,000+", "Moves Completed"],
+                ["5,00+", "Moves Completed"],
                 ["10+", "Years Experience"],
                 ["98%", "Client Satisfaction"],
                 ["24/7", "Customer Support"],
