@@ -11,7 +11,7 @@ const Footer = () => (
           The most trusted name in residential and commercial relocation services. Safe, fast, and reliable.
         </p>
         <div className="flex items-center gap-3 text-muted-foreground mb-2">
-          <Phone className="w-4 h-4" /> <span className="text-sm">+91 98765 43210</span>
+          <Phone className="w-4 h-4" /> <span className="text-sm">+91 8129326323</span>
         </div>
         <div className="flex items-center gap-3 text-muted-foreground">
           <Mail className="w-4 h-4" /> <span className="text-sm">hello@movebuddy.com</span>
@@ -20,11 +20,13 @@ const Footer = () => (
 
       <div>
         <h5 className="text-primary-foreground font-bold mb-6">Service Areas</h5>
-        <ul className="space-y-3 text-sm text-muted-foreground">
-          {["Kochi", "Kalamassery", "Kaloor", "Kadavanthra"].map((a) => (
-            <li key={a} className="flex items-center gap-2"><MapPin className="w-3 h-3" />{a}</li>
-          ))}
-        </ul>
+        <p className="text-sm text-muted-foreground leading-relaxed flex gap-2">
+          {/* <MapPin className="w-4 h-4 mt-1 shrink-0" /> */}
+          MoveBuddy provides reliable house shifting and relocation services
+          across all districts in Kerala. Whether you're moving within the
+          city or to another district, our team ensures safe and hassle-free
+          transportation of your belongings.
+        </p>
       </div>
 
       <div>
@@ -36,7 +38,7 @@ const Footer = () => (
           <li><a href="#gallery" className="hover:text-primary transition-colors">Gallery</a></li>
         </ul>
         <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-block mt-6 text-accent font-bold hover:underline text-sm">
-          Chat with an Expert →
+          Chat with an Us →
         </a>
       </div>
     </div>
