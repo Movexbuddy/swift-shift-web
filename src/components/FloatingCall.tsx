@@ -1,4 +1,4 @@
-const CALL_URL = "tel:+918129087654";
+const CALL_URL = "tel:+918129326323";
 
 const FloatingCall = () => (
   <a
