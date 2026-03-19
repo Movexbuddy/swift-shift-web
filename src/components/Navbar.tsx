@@ -14,21 +14,22 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed w-full z-40 glass-nav border-b border-border">
-      <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        <a href="#" className="flex items-center">
-          <img src="/movebuddy.webp" alt="MoveBuddy Logo" className="h-10 w-auto" />
+    <nav className="fixed w-full z-50 glass-nav transition-all duration-300">
+      <div className="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+        <a href="#" className="flex items-center group">
+          <img src="/movebuddy.webp" alt="MoveBuddy Logo" className="h-12 w-auto transition-transform group-hover:scale-105" />
         </a>
 
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-10">
           {navLinks.map((l) => (
-            <a key={l.href} href={l.href} className="text-muted-foreground font-medium hover:text-primary transition-colors">
+            <a key={l.href} href={l.href} className="text-foreground/80 font-semibold hover:text-primary transition-colors relative group">
               {l.label}
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
         </div>
 
-        <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hidden md:inline-flex btn-accent px-6 py-2.5">
+        <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hidden md:inline-flex btn-accent px-8 py-3">
           Book Now
         </a>
 

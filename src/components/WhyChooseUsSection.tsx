@@ -9,19 +9,24 @@ const features = [
 ];
 
 const WhyChooseUsSection = () => (
-  <section className="section-padding bg-surface">
+  <section className="section-padding bg-surface/50 border-y border-border/40">
     <div className="max-w-7xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-foreground fade-up">
-        Why Choose MoveBuddy?
-      </h2>
+      <div className="text-center mb-20">
+        <h2 className="text-3xl md:text-5xl font-extrabold text-foreground fade-up tracking-tight mb-6">
+          Why Choose MoveBuddy?
+        </h2>
+        <p className="text-lg text-muted-foreground max-w-2xl mx-auto fade-up" data-delay="100">
+          We combine cutting-edge logistics with a customer-first approach to deliver unmatched reliability.
+        </p>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
         {features.map((f, i) => (
-          <div key={f.title} className="text-center p-6 rounded-2xl bg-card card-shadow hover:card-shadow-hover transition-shadow duration-300 fade-up" data-delay={String(i * 80)}>
-            <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
-              <f.icon className="w-7 h-7 text-primary" />
+          <div key={f.title} className="text-center p-8 rounded-2xl glass-card transition-all duration-500 hover:-translate-y-2 hover:shadow-[var(--shadow-elevated)] fade-up group" data-delay={String(i * 80)}>
+            <div className="w-16 h-16 bg-primary/10 rounded-[1.25rem] flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-500">
+              <f.icon className="w-8 h-8 text-primary" />
             </div>
-            <h4 className="font-bold text-foreground mb-2">{f.title}</h4>
-            <p className="text-muted-foreground text-sm leading-relaxed">{f.desc}</p>
+            <h4 className="font-bold text-foreground mb-3 text-lg leading-tight tracking-tight">{f.title}</h4>
+            <p className="text-muted-foreground text-[15px] leading-relaxed">{f.desc}</p>
           </div>
         ))}
       </div>

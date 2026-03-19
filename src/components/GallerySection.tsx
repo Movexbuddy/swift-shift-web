@@ -17,18 +17,21 @@ const images = [
 const GallerySection = () => (
   <section id="gallery" className="section-padding">
     <div className="max-w-7xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-foreground fade-up">
-        Our Work in Action
-      </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="text-center mb-16">
+        <h2 className="text-3xl md:text-5xl font-extrabold text-foreground fade-up tracking-tight">
+          Our Work in Action
+        </h2>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {images.map((img, i) => (
-          <div key={i} className="overflow-hidden rounded-2xl card-shadow zoom-in group" data-delay={String(i * 100)}>
+          <div key={i} className="relative overflow-hidden rounded-[2rem] card-shadow zoom-in group isolate border border-border/20" data-delay={String(i * 100)}>
             <img
               src={img.src}
               alt={img.alt}
-              className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+              className="w-full h-72 object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               loading="lazy"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
           </div>
         ))}
       </div>
