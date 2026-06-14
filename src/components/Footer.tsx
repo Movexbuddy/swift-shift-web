@@ -49,7 +49,7 @@ const Footer = () => (
           <li><a href="#services" className="hover:text-primary-foreground transition-colors">Services</a></li>
           <li><a href="#about" className="hover:text-primary-foreground transition-colors">About Us</a></li>
           <li><a href="#process" className="hover:text-primary-foreground transition-colors">How It Works</a></li>
-          <li><a href="#gallery" className="hover:text-primary-foreground transition-colors">Gallery</a></li>
+          <li><a href="#why-us" className="hover:text-primary-foreground transition-colors">Why Us</a></li>
         </ul>
         <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="inline-block mt-8 text-primary font-bold hover:underline">
           Chat with Us →

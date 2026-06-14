@@ -9,7 +9,7 @@ const features = [
 ];
 
 const WhyChooseUsSection = () => (
-  <section className="section-padding bg-surface/50 border-y border-border/40">
+  <section id="why-us" className="section-padding bg-surface/50 border-y border-border/40">
     <div className="max-w-7xl mx-auto">
       <div className="text-center mb-20">
         <h2 className="text-3xl md:text-5xl font-extrabold text-foreground fade-up tracking-tight mb-6">

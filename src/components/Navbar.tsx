@@ -7,7 +7,7 @@ const navLinks = [
   { href: "#services", label: "Services" },
   { href: "#about", label: "About" },
   { href: "#process", label: "Process" },
-  { href: "#gallery", label: "Gallery" },
+  { href: "#why-us", label: "Why Us" },
 ];
 
 const Navbar = () => {
